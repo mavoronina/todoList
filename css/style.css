@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap');
+
+
+body {
+  background: #1B1A17;
+  color: #F0E3CA;
+  font-family: Roboto;
+}
+
+.container {
+    width: wv;
+    height: 100%;
+}
+
+h1 {
+  margin: 30px;
+  text-align: center;
+  filter: drop-shadow(10px 13px 10px rgba(255, 255, 255, 0.41));
+  /*height: 20%;*/
+}
+
+
+h2 {
+  color: #FF8303;
+  align-self: center;
+  text-align: center;
+}
+
+form {
+  background:#242320;
+  border-radius: 20px;
+  display: grid;
+  grid-template-columns: 35% 45% 20%;
+  padding: 20px;
+}
+.form_content {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  row-gap: 7px;
+}
+
+label {
+  align-self: center;
+}
+
+input {
+  border-radius: 4px;
+  border: 1px solid #FF8303;
+  background: #242320;
+  color: #F0E3CA;
+  font-family: Roboto;
+  height: 32px;
+}
+
+input::placeholder {
+  color: rgba(240, 227, 202, 0.64);
+  font-size: 14px;
+  line-height: 18px; /* 128.571% */
+  
+}
+
+select {
+  border-radius: 4px;
+  border: 1px solid #FF8303;
+  background: #242320;
+  color: #F0E3CA;
+  font-family: Roboto;
+  height: 32px;
+}
+
+option {
+  color: rgba(240, 227, 202, 0.64);
+  font-size: 14px;
+  line-height: 18px; /* 128.571% */
+}
+
+button {
+  border:none;
+  background: #242320;
+}
+
+th {
+  align-self: center;
+  text-align: center;
+  font-size: 22px;
+  font-weight: 500;
+}
+
+tr {
+  background: #242320;
+  border-radius: 8px;
+  border: 2px solid #A35709;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  text-align: justify; 
+  margin-bottom: 5px;
+  padding-top: 13px;
+  padding-bottom: 13px;
+  margin-left: 10px;
+  }
+
+.header {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  margin-top:10px;
+  background: #A35709;
+  border-radius:  20px 20px 0px 0px;
+  /*height: 10%;*/
+}
+
+td {
+  align-self: center;
+  text-align: center;
+}
+
+.rows {
+  background: #A35709;
+  height: 60vh;
+  overflow-y: scroll;
+  border-radius: 0px 0px 10px 10px;
+}
+.rows::-webkit-scrollbar {
+  width: 10px;
+  background-color: #A35709;
+  border-radius: 10px;
+}
+
+.rows::-webkit-scrollbar-thumb {
+  background-color: #d17213;
+  background-image: -webkit-linear-gradient(45deg,rgba(255, 255, 255, .25) 25%,
+                    transparent 25%,
+                    transparent 50%,
+                    rgba(255, 255, 255, .25) 50%,
+                    rgba(255, 255, 255, .25) 75%,
+                    transparent 75%,
+                    transparent);
+  border-radius: 10px;
+}
+.rows::-webkit-scrollbar-track {
+  /*-webkit-box-shadow: 5px 5px 5px -5px rgba(34, 60, 80, 0.2) inset;*/
+  -webkit-box-shadow: 5px 5px 5px -5px #613407 inset;
+  background-color: #A35709;
+  border-radius: 10px;
+  }
